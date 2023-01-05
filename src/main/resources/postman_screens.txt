@@ -1,0 +1,37 @@
+
+POST URLS:
+==========
+
+POST		http://localhost:8082/api/posts/save		
+
+GET			http://localhost:8082/api/posts/list		
+
+GET			http://localhost:8082/api/posts/1
+
+PUT		 	http://localhost:8082/api/posts/1
+		
+DELETE		http://localhost:8082/api/posts/1
+
+
+Retrieving Data using PageNo & PageSize:
+``````````````````````````````````````````
+	http://localhost:8082/api/posts/list?pageNo=1&pageSize=10
+
+SortBy:
+```````
+	http://localhost:8082/api/posts/list?pageNo=0&pageSize=5&sortBy=title
+
+
+COMMENT URLS:
+==============
+
+POST		http://localhost:8082/api/post/1/comments		
+
+GET			http://localhost:8082/api/post/1/comments		
+
+GET			http://localhost:8082/api/post/1/comments/1
+
+PUT		 	http://localhost:8082/api/post/1/comments/1
+		
+DELETE		http://localhost:8082/api/post/1/comments/1
+
